@@ -54,14 +54,14 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8107
-    targetPort: 8107
+    port: 8109
+    targetPort: 8109
 
   studentmanagement: 
     name: studentmanagement
     type: NodePort
-    port: 8108
-    targetPort: 8108
+    port: 8110
+    targetPort: 8110
 
 
 deployment:

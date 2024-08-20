@@ -251,7 +251,7 @@ services:
     image: systementry-3444
     container_name: systementry-3444
     ports: 
-      - 8107:8107
+      - 8109:8109
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: studentmanagement-3444
     container_name: studentmanagement-3444
     ports: 
-      - 8108:8108
+      - 8110:8110
     env_file: .env
     depends_on:
       - mongo

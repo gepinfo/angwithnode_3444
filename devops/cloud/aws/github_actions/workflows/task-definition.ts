@@ -70,8 +70,8 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/angwithnode_3444?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"},{"name":"SYSTEMCREDENTIALMANAGERURL","value":"http://127.0.0.1:8005"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8107"}
-            ,{"name":"STUDENTMANAGEMENTURL","value":"http://angwithnode0.local:8108"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8109"}
+            ,{"name":"STUDENTMANAGEMENTURL","value":"http://angwithnode0.local:8110"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -293,7 +293,7 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/angwithnode_3444?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8107"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8109"}
             ],
             "mountPoints": [
                 {
@@ -374,9 +374,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8107",
+                    "containerPort": "8109",
                     "protocol": "tcp",
-                    "hostPort": "8107"
+                    "hostPort": "8109"
                 }
             ],
             "environmentFiles": null,

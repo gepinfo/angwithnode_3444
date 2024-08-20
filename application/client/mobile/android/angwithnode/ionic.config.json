@@ -1,0 +1,7 @@
+{
+  "name": "angwithnode",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
